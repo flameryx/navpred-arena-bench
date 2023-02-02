@@ -36,9 +36,9 @@
     version: v2.0.0
 
 - git:
-    local-name: ../utils/arena-utils
-    uri: https://github.com/Arena-Rosnav/arena-utils.git
-    version: v2.2.0
+    local-name: ../utils/navpred-arena-utils
+    uri: https://github.com/flameryx/navpred-arena-utils.git
+    version: master
 
 - git:
     local-name: ../utils/task-generator
@@ -46,8 +46,13 @@
     version: v2.1.1
 
 - git:
-    local-name: ../arena-evaluation
+    local-name: ../utils/arena-evaluation
     uri: https://github.com/Arena-Rosnav/arena-evaluation.git
+    version: master
+    
+- git:
+    local-name: ../utils/navpred-data-recorder
+    uri: https://github.com/flameryx/navpred-data-recorder.git
     version: master
 
 ### PLANNERS
